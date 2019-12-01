@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" hgap="12.0" prefHeight="500.0" prefWidth="526.0" vgap="12.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="200.0" minWidth="153.0" prefWidth="153.0"  />
+      <ColumnConstraints maxWidth="200.0" minWidth="153.0" prefWidth="153.0" />
+      <ColumnConstraints maxWidth="200.0" minWidth="153.0" prefWidth="153.0" />
+      <ColumnConstraints maxWidth="200.0" minWidth="153.0" prefWidth="153.0" />
+      <ColumnConstraints maxWidth="150.0" minWidth="120.0" prefWidth="120.0"  />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="73.0" minHeight="73.0" prefHeight="73.0" />
+      <RowConstraints />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+   </rowConstraints>
+   <children>
+      <FlowPane prefHeight="80.0" prefWidth="255.0" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="2" />
+      <Button fx:id="button2" mnemonicParsing="false" onAction="#button2Action" prefHeight="40.0" prefWidth="153.0" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <Button fx:id="button1" mnemonicParsing="false" onAction="#button1Action" prefHeight="40.0" prefWidth="153.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Button fx:id="button3" mnemonicParsing="false" onAction="#button3Action" prefHeight="40.0" prefWidth="153.0" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <Label fx:id="questionText" minWidth="350.0" prefHeight="37.0" prefWidth="388.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Label fx:id="correctionText" minWidth="350.0" prefHeight="40.0" prefWidth="350.0" text="" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="4" GridPane.rowSpan="2" />
+      <Button fx:id="next" mnemonicParsing="false" prefHeight="40.0" prefWidth="153.0" text="Sonraki" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+      <Label fx:id="fin" alignment="CENTER" minWidth="400.0" prefHeight="41.0" prefWidth="400.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+      <Button fx:id="start" mnemonicParsing="false" prefHeight="80.0" prefWidth="180.0" text="Basla" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+   </children>
+</GridPane>

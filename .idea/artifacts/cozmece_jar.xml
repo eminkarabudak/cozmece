@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cozmece:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cozmece_jar</output-path>
+    <root id="archive" name="cozmece.jar">
+      <element id="module-output" name="cozmece" />
+    </root>
+  </artifact>
+</component>
